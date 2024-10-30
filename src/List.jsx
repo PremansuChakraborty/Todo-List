@@ -11,7 +11,7 @@ const List=()=>{
     return(
         <>
         <div>
-        <h1> To-Do List developed by Tultuli</h1>
+        <h1> To-Do List </h1>
  <div>
     <h2>Add ToDo</h2>
     <input value={tit} placeholder='Enter the Title' onChange={(e)=>setTit(e.target.value)}/><br/>
